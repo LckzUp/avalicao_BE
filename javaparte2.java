@@ -2,15 +2,15 @@ import java.util.Scanner;
 
 public class javaparte2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("digite o primeiro numero: ");
-        int numero1 = scanner.nextInt();
+        double numero1 = sc.nextInt();
 
         System.out.print("digite o segundo numero: ");
-        int numero2 = scanner.nextInt();
+        double numero2 = sc.nextInt();
 
-        int diferenca = numero1 - numero2;
+        double diferenca = numero1 - numero2;
 
         if (diferenca > 0) {
             System.out.println("a diferenca e positiva.");
@@ -20,6 +20,5 @@ public class javaparte2 {
             System.out.println("a diferenca e zero.");
         }
 
-        scanner.close();
     }
 }
