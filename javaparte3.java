@@ -7,7 +7,7 @@ public class javaparte3 {
         System.out.print("digite o primeiro numero: ");
         int numero1 = scanner.nextInt();
 
-        System.out.print("digite o segundo numero: ");
+        System.out.print("digite o segundo nimero: ");
         int numero2 = scanner.nextInt();
 
         int produto = numero1 * numero2;

@@ -5,24 +5,24 @@ public class avaliacao {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o primeiro numero: ");
-        int num1 = scanner.nextInt();
+        int numero1 = scanner.nextInt();
 
         System.out.print("Digite o segundo numero: ");
-        int num2 = scanner.nextInt();
+        int numero2 = scanner.nextInt();
 
         System.out.print("Digite o terceiro numero: ");
-        int num3 = scanner.nextInt();
+        int numero3 = scanner.nextInt();
 
-        int maior = num1;
+        int maiornumero = numero1;
 
-        if (num2 > maior) {
-            maior = num2;
+        if (numero2 > maiornumero) {
+            maiornumero = numero2;
         }
-        if (num3 > maior) {
-            maior = num3;
+        if (numero3 > maiornumero) {
+            maiornumero = numero3;
         }
 
-        System.out.println("O maior numero e: " + maior);
+        System.out.println("o maior numero e: " + maiornumero);
         
         scanner.close();
     }

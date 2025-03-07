@@ -15,7 +15,7 @@ public class javaparte2 {
         if (diferenca > 0) {
             System.out.println("a diferenca e positiva.");
         } else if (diferenca < 0) {
-            System.out.println("a diferenea e negativa.");
+            System.out.println("a diferenea e negativp.");
         } else {
             System.out.println("a diferenca e zero.");
         }
