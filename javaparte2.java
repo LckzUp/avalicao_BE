@@ -5,10 +5,10 @@ public class javaparte2 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("digite o primeiro numero: ");
-        double numero1 = sc.nextInt();
+        double numero1 = sc.nextDouble();
 
         System.out.print("digite o segundo numero: ");
-        double numero2 = sc.nextInt();
+        double numero2 = sc.nextDouble();
 
         double diferenca = numero1 - numero2;
 

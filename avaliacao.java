@@ -5,13 +5,13 @@ public class avaliacao {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite o primeiro numero: ");
-        double numero1 = sc.nextInt();
+        double numero1 = sc.nextDouble();
 
         System.out.print("Digite o segundo numero: ");
-        double numero2 = sc.nextInt();
+        double numero2 = sc.nextDouble();
 
         System.out.print("Digite o terceiro numero: ");
-        double numero3 = sc.nextInt();
+        double numero3 = sc.nextDouble();
 
         double maiornumero = numero1;
 
