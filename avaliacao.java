@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class avaliacao {
+public class Avaliacao {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -18,6 +18,7 @@ public class avaliacao {
         if (numero2 > maiornumero) {
             maiornumero = numero2;
         }
+
         if (numero3 > maiornumero) {
             maiornumero = numero3;
         }
